@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sell With Us | The Borg Group</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --charcoal:#242428; --charcoal-soft:#3A3A3E;
+    --rose:#C4947A; --rose-muted:#D4A898; --rose-light:#EAD8CF;
+    --cream:#FAF8F4; --silver:#B8BEC8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{min-height:100%}
+  body{
+    font-family:'Jost',Helvetica,Arial,sans-serif;
+    background:linear-gradient(135deg,var(--charcoal) 0%,var(--charcoal-soft) 100%);
+    color:var(--cream);
+    padding:56px 32px;min-height:100vh;display:flex;align-items:center;
+  }
+  .wrap{width:100%;max-width:1080px;margin:0 auto;display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}
+  .eyebrow{
+    font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--rose);
+    display:inline-flex;align-items:center;gap:14px;margin-bottom:16px;
+  }
+  .eyebrow::before{content:"";height:1px;width:48px;background:linear-gradient(90deg,transparent,var(--rose))}
+  h2{
+    font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;
+    font-size:clamp(34px,4.6vw,54px);line-height:1.1;margin-bottom:16px;
+  }
+  h2 em{font-style:italic;font-weight:400;color:var(--rose-muted)}
+  p.lead{font-weight:300;font-size:17px;line-height:1.7;color:var(--rose-light);margin-bottom:28px;max-width:520px}
+  .btns{display:flex;gap:14px;flex-wrap:wrap}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;
+    padding:15px 26px;text-decoration:none;border-radius:4px;border:1px solid var(--rose);
+    font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:20px;color:var(--cream);
+    transition:background .2s,color .2s,transform .2s;
+  }
+  .btn:hover,.btn:focus-visible{background:var(--rose);color:var(--charcoal);transform:translateY(-2px);outline:none}
+  .btn.primary{background:var(--rose);color:var(--charcoal)}
+  .btn.primary:hover,.btn.primary:focus-visible{background:var(--rose-light)}
+  .call{margin-top:20px;font-size:14px;font-weight:300;color:var(--silver)}
+  .call a{color:var(--rose-light);text-decoration:none;border-bottom:1px solid var(--rose)}
+  .cards{display:flex;flex-direction:column;gap:14px}
+  .card{
+    border:1px solid rgba(196,148,122,.45);border-radius:4px;padding:20px 22px;
+    background:rgba(255,255,255,.03);
+  }
+  .card h3{
+    font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:22px;line-height:1.25;
+    color:var(--rose-muted);margin-bottom:6px;
+  }
+  .card p{font-weight:300;font-size:15px;line-height:1.6;color:var(--cream)}
+  .foot{grid-column:1/-1;text-align:center;font-size:12px;letter-spacing:.08em;color:var(--silver);margin-top:8px}
+  @media (max-width:860px){
+    body{padding:40px 22px}
+    .wrap{grid-template-columns:1fr;gap:32px}
+    .btn{flex:1 1 100%}
+  }
+</style></head>
+<body>
+  <main class="wrap">
+    <section>
+      <div class="eyebrow">Thinking of selling?</div>
+      <h2>What could your home <em>sell for?</em></h2>
+      <p class="lead">Wondering what your home is worth in today's Southwest Florida market? Mark and Dawn will walk you through pricing, timing and a plan, so you can decide what's right for you.</p>
+      <div class="btns">
+        <a class="btn primary" target="_top" rel="noopener" href="https://www.theborggroup.com/seller/valuation/">Find Out My Home's Value</a>
+        <a class="btn" target="_top" rel="noopener" href="https://www.theborggroup.com/pages/contact-us">Talk With Mark &amp; Dawn</a>
+      </div>
+      <p class="call">Prefer to talk? Call us at <a href="tel:2393504474" target="_top">239-350-4474</a></p>
+    </section>
+
+    <section class="cards" aria-label="How selling with The Borg Group works">
+      <div class="card">
+        <h3>How should your home be priced?</h3>
+        <p>We study the recent sales and the competition in your neighborhood, then price your home to attract the right buyers.</p>
+      </div>
+      <div class="card">
+        <h3>How will buyers find it?</h3>
+        <p>Professional photography, strong descriptions, targeted social media and email to qualified buyers.</p>
+      </div>
+      <div class="card">
+        <h3>What happens after an offer?</h3>
+        <p>We stay with you through negotiation, inspections and closing, with clear communication at every step.</p>
+      </div>
+    </section>
+
+    <div class="foot">The Borg Group at Downing-Frye Realty &middot; Serving Southwest Florida since 2005</div>
+  </main>
+
+
+</body>
+</html>

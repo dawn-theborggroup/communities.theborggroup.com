@@ -1,0 +1,26 @@
+# ============================================================
+# THE BORG GROUP — communities.theborggroup.com
+# URL restructure: flat → /area/community/ tree
+# Place this file in the ROOT of the deploy folder (no extension)
+# Deploy in the SAME push that moves the pages into folders.
+# ============================================================
+
+# --- Estero communities ---
+/corkscrew-shores        /estero/corkscrew-shores/        301!
+/the-place-at-corkscrew  /estero/the-place-at-corkscrew/  301!
+/verdana-village         /estero/verdana-village/         301!
+/bella-terra             /estero/bella-terra/             301!
+/wildblue                /estero/wildblue/                301!
+/wildcat-run             /estero/wildcat-run/             301!
+/kingston                /estero/kingston/                301!
+
+# --- Bonita Springs communities ---
+/san-carlos-estates      /bonita-springs/san-carlos-estates/  301!
+/vivid-shores            /bonita-springs/vivid-shores/        301!
+
+# ============================================================
+# NOT redirected (URLs unchanged):
+#   /southwest-florida-relocation-guide
+#   /bonita-springs   /estero   /naples
+#   /fort-myers       /cape-coral   /bonita-beach
+# ============================================================
